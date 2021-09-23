@@ -1,6 +1,6 @@
 body {
-  font-family: arial, sans-serif;
-  max-width: 1200px;
+  font-family: Helvetica, Garamond, sans-serif;
+  max-width: 1210px;
   padding: 0 30px;
   margin: auto;
   background-color: #fff;
@@ -24,6 +24,17 @@ footer{
   padding: 50px 20px;
   margin: 15px auto;
   background-color: #E6E6E6;
+}
+
+table#certificates {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#certificates th, #certificates td {
+  padding: 6px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
 hr {
